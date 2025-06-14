@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your IPL Squad - Auction Desk</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-brand">Your IPL Squad</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Back to Auction</a></li>
+            <li><a href="#" id="navPurse">Purse Remaining: ₹<span id="currentPurse">0.00</span> Cr</a></li>
+            <li><a href="#" id="navSquadCount">Squad: <span id="squadCount">0</span>/25</a></li>
+            <li><a href="#" id="navOverseasCount">Overseas: <span id="overseasCount">0</span>/8</a></li>
+        </ul>
+    </nav>
+
+    <div class="container full-width-container">
+        <main class="auction-desk full-height-desk">
+            <h2>Your Bought Players</h2>
+            <div class="auction-table">
+                <h3>1. Batsman</h3>
+                <div class="auction-group" id="auction-batsman"></div>
+
+                <h3>2. All-Rounder</h3>
+                <div class="auction-group" id="auction-allrounder"></div>
+
+                <h3>3. Wicket-Keeper</h3>
+                <div class="auction-group" id="auction-wicketkeeper"></div>
+
+                <h3>4. Spinner</h3>
+                <div class="auction-group" id="auction-spinner"></div>
+
+                <h3>5. Pacer</h3>
+                <div class="auction-group" id="auction-pacer"></div>
+            </div>
+        </main>
+    </div>
+
+    <script src="auction_desk.js"></script>
+</body>
+
+</html>

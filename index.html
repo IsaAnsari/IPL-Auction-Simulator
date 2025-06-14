@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL Auction Simulator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-brand">IPL Auction</div>
+        <ul class="nav-links">
+            <li><a href="#" id="navPlayers">Players</a></li>
+            <li><a href="#" id="navPurse">Purse: ₹<span id="currentPurse">120.00</span> Cr</a></li>
+            <li><a href="auction_desk.html" id="navAuctionTable" target="_blank">Auction Desk</a></li>
+        </ul>
+        <button id="resetAuctionBtn" class="reset-button">Reset Auction</button>
+    </nav>
+
+    <div class="container">
+        <aside class="player-selection">
+            <h2>Player Pool</h2>
+
+            <div class="player-group">
+                <h3>A. Opener</h3>
+                <div class="player-subgroup" id="opener-batsman">
+                    <h4>1. Batsman</h4>
+                </div>
+                <div class="player-subgroup" id="opener-wk">
+                    <h4>2. Wicket-Keeper</h4>
+                </div>
+                <div class="player-subgroup" id="opener-spinner-ar">
+                    <h4>3. Spinner All-Rounder</h4>
+                </div>
+                <div class="player-subgroup" id="opener-pacer-ar">
+                    <h4>4. Pacer All-Rounder</h4>
+                </div>
+            </div>
+
+            <div class="player-group">
+                <h3>B. Middle Order</h3>
+                <div class="player-subgroup" id="middle-batsman">
+                    <h4>1. Batsman</h4>
+                </div>
+                <div class="player-subgroup" id="middle-pacer-ar">
+                    <h4>2. Pacer All-Rounder</h4>
+                </div>
+                <div class="player-subgroup" id="middle-spinner-ar">
+                    <h4>3. Spinner All-Rounder</h4>
+                </div>
+                <div class="player-subgroup" id="middle-wk">
+                    <h4>4. Wicket-Keeper</h4>
+                </div>
+            </div>
+
+            <div class="player-group">
+                <h3>C. Finisher</h3>
+                <div class="player-subgroup" id="finisher-batsman">
+                    <h4>1. Batsman</h4>
+                </div>
+                <div class="player-subgroup" id="finisher-pacer-ar">
+                    <h4>2. Pacer All-Rounder</h4>
+                </div>
+                <div class="player-subgroup" id="finisher-spinner-ar">
+                    <h4>3. Spinner All-Rounder</h4>
+                </div>
+                <div class="player-subgroup" id="finisher-wk">
+                    <h4>4. Wicket-Keeper</h4>
+                </div>
+            </div>
+
+            <div class="player-group">
+                <h3>E. Spinners</h3>
+                <div class="player-subgroup" id="spinners"></div>
+            </div>
+
+            <div class="player-group">
+                <h3>F. Pacers</h3>
+                <div class="player-subgroup" id="pacers"></div>
+            </div>
+
+        </aside>
+
+        <main class="auction-desk">
+            <h2>Your Squad (<span id="squadCount">0</span>/25 Players, <span id="overseasCount">0</span>/8 Overseas)
+            </h2>
+            <div class="auction-table">
+                <h3>1. Batsman</h3>
+                <div class="auction-group" id="auction-batsman"></div>
+
+                <h3>2. All-Rounder</h3>
+                <div class="auction-group" id="auction-allrounder"></div>
+
+                <h3>3. Wicket-Keeper</h3>
+                <div class="auction-group" id="auction-wicketkeeper"></div>
+
+                <h3>4. Spinner</h3>
+                <div class="auction-group" id="auction-spinner"></div>
+
+                <h3>5. Pacer</h3>
+                <div class="auction-group" id="auction-pacer"></div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
