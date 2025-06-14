@@ -16,7 +16,7 @@ A fun, interactive web-based simulator that lets you build your dream IPL cricke
 
 ## 🚀 How to Use
 
-1.  **Visit the Live Site:** [https://YOUR_USERNAME.github.io/YOUR_REPOSITORY_NAME/](https://YOUR_USERNAME.github.io/YOUR_REPOSITORY_NAME/) (Replace with your actual GitHub Pages URL)
+1.  **Visit the Live Site:** https://isaansari.github.io/IPL-Auction-Simulator/
 2.  Click on any player card on the left side to "buy" them.
 3.  Watch your purse deduct and the player appear in your squad on the right side.
 4.  Keep an eye on the "Squad" and "Overseas" player counts in the navbar.
