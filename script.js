@@ -133,11 +133,11 @@ const players = [
 
     { id: 'p044', name: 'David Miller', role: 'Middle Order Batsman', type: 'Batsman', price: 7.50, image: 'https://static.toiimg.com/photo/120897037.cms', isOverseas: true, category: 'Middle Order' },
 
-    { id: 'p045', name: 'Manish Pandey', role: 'Middle Order Batsman', type: 'Batsman', price: 0.75, image: 'https://documents.iplt20.com/ipl/IPLHeadshot2025/16.png', isOverseas: true, category: 'Middle Order' },
+    { id: 'p045', name: 'Manish Pandey', role: 'Middle Order Batsman', type: 'Batsman', price: 0.75, image: 'https://documents.iplt20.com/ipl/IPLHeadshot2025/16.png', isOverseas: false, category: 'Middle Order' },
 
-    { id: 'p046', name: 'Karun Nair', role: 'Middle Order Batsman', type: 'Batsman', price: 0.50, image: 'https://static.toiimg.com/photo/120896555.cms', isOverseas: true, category: 'Middle Order' },
+    { id: 'p046', name: 'Karun Nair', role: 'Middle Order Batsman', type: 'Batsman', price: 0.50, image: 'https://static.toiimg.com/photo/120896555.cms', isOverseas: false, category: 'Middle Order' },
 
-    { id: 'p047', name: 'Naman Dhir', role: 'Middle Order Batsman', type: 'Batsman', price: 5.25, image: 'https://documents.iplt20.com/ipl/IPLHeadshot2025/3107.png', isOverseas: true, category: 'Middle Order' },
+    { id: 'p047', name: 'Naman Dhir', role: 'Middle Order Batsman', type: 'Batsman', price: 5.25, image: 'https://documents.iplt20.com/ipl/IPLHeadshot2025/3107.png', isOverseas: false, category: 'Middle Order' },
 
     { id: 'p048', name: 'Sherfane Rutherford', role: 'Middle Order Batsman', type: 'Batsman', price: 2.60, image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfhlVLaoqAMZmmt75ydXM6DgbaRin4OxyWXQ&s', isOverseas: true, category: 'Middle Order' },
 
