@@ -26,30 +26,23 @@ A fun, interactive web-based simulator that lets you build your dream IPL cricke
 ## 📸 Screenshots
 
 ### Main Auction Page
-![Main Auction Page Screenshot](screenshots/screenshot-main-1.png)
-*A view of the player pool and the real-time squad building on the main page.*
+![Main Auction Page Screenshot 1](screenshots/screenshot-main-1.png)
 
-![Main Auction Page Screenshot](screenshots/screenshot-main-2.png)
-*A view of the player pool and the real-time squad building on the main page.*
+![Main Auction Page Screenshot 2](screenshots/screenshot-main-2.png)
 
-![Main Auction Page Screenshot](screenshots/screenshot-main-3.png)
-*A view of the player pool and the real-time squad building on the main page.*
+![Main Auction Page Screenshot 3](screenshots/screenshot-main-3.png)
 
-![Main Auction Page Screenshot](screenshots/screenshot-main-4.png)
-*A view of the player pool and the real-time squad building on the main page.*
+![Main Auction Page Screenshot 4](screenshots/screenshot-main-4.png)
 
-![Main Auction Page Screenshot](screenshots/screenshot-main-5.png)
-*A view of the player pool and the real-time squad building on the main page.*
+![Main Auction Page Screenshot 5](screenshots/screenshot-main-5.png)
 
 ### Your Squad (Auction Desk)
-![Auction Desk Screenshot](screenshots/screenshot-auction-desk-1.png)
+![Auction Desk Screenshot 1](screenshots/screenshot-auction-desk-1.png)
 
-![Auction Desk Screenshot](screenshots/screenshot-auction-desk-2.png)
-*A dedicated view of your selected players, categorized by role.*
+![Auction Desk Screenshot 2](screenshots/screenshot-auction-desk-2.png)
 
 ### Mobile View Example
-![Mobile View Screenshot](screenshots/screenshot-mobile.png)
-*How the site adapts to smaller screens, showing 2-3 players per row.*
+![Mobile View Screenshot](screenshots/screenshot-mobile.jpg)
 
 ## 🛠️ Technologies Used
 
@@ -58,4 +51,4 @@ A fun, interactive web-based simulator that lets you build your dream IPL cricke
 * JavaScript (Vanilla JS)
 
 ---
-*Built with ❤️ by Isa Ansari
+*Built with ❤️ by Isa Ansari*
